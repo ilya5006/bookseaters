@@ -1,0 +1,126 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.white {
+    background-color: white;
+}
+
+.main {
+    padding: 20px 40px;
+}
+
+.subject-info {
+    padding: 30px;
+}
+
+html {
+    background-color: #D9D9D9;
+}
+
+header {
+    padding: 5px 25px;
+}
+
+.cover {
+    width: 278px;
+    height: 328px;
+}
+
+.like img, .dislike img {
+    width: 30px;
+    height: 30px;
+}
+
+.like, .dislike {
+    display: flex;
+    align-items: center;
+}
+
+.dislikes-amount, .likes-amount {
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.dislikes-amount {
+    margin-right: 10px;
+}
+
+.content {
+    padding: 25px;
+}
+
+.other-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.subject-info {
+    display: flex;
+    flex-direction: row;
+}
+
+.text-info {
+    margin-left: 20px;
+}
+
+.rating {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    width: 100%;
+    margin-top: 10px;
+}
+
+
+.topics {
+    padding-top: 20px;
+}
+
+.topic-head {
+    background-color: #D6D6D6;
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+
+    padding: 5px 10px;
+}
+
+.topic-body {
+    background-color: #EBEBEB;
+
+    padding: 10px;
+}
+
+.topic-footer {
+    background-color: #BABABA;
+
+    padding: 5px 0px;
+}
+
+.topic-metadata {
+    display: flex;
+    flex-direction: row;
+}
+
+.topic-title {
+    font-weight: bold;
+}
+
+.topic-text {
+    margin-top: 15px;
+}
+
+.main {
+    margin-top: 42px;
+}
+
+.title {
+    text-align: center;
+}

@@ -1,0 +1,21 @@
+.book-description {
+    margin-top: 15px;
+}
+
+.reviews-button {
+    margin-top: 10px;
+    background-color: #D9D9D9;
+
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 0px;
+
+    color: black;
+    font-weight: bold;
+}
+
+.messages-amount-wrapper {
+    text-align: center;
+}
