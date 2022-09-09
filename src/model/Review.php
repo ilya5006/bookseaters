@@ -1,6 +1,7 @@
 <?php
 
-class Review {
+class Review
+{
     private int $id;
     private User $user;
     private Book $book;

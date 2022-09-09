@@ -1,6 +1,7 @@
 <?php
 
-class Database {
+class Database
+{
     private mysqli $connection;
     
     public function __construct(
@@ -15,7 +16,8 @@ class Database {
         }
     }
 
-    public function query(string $query) {
+    public function query(string $query)
+    {
         $queryResult = $this->connection->query(
             $this->connection->escape_string($query)
         );
@@ -23,7 +25,8 @@ class Database {
         return $queryResult->fetch_all(MYSQLI_ASSOC);
     }
 
-    public function __destruct() {
+    public function __destruct()
+    {
         $this->connection->close();
     }
 }

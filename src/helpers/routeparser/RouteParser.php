@@ -1,6 +1,7 @@
 <?php
 
-class RouteParser {
+class RouteParser
+{
     public function __construct(
         private string $route
     ) {

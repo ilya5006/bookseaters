@@ -1,6 +1,7 @@
 <?php
 
-class Author {
+class Author
+{
     private int $id;
     private string $name;
     private DateTime $birthday;

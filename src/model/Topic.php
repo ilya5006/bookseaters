@@ -1,6 +1,7 @@
 <?php
 
-class Topic {
+class Topic
+{
     private int $id;
     private Book $book;
     private User $user;

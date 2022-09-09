@@ -1,8 +1,9 @@
 <?php
 
-abstract class AbstractLogger {
-    private string $loggerFile;
+abstract class AbstractLogger
+{
+    private \resource $loggerFile;
 
-    abstract public function log(): bool;
-    abstract public function setLoggerFile(): bool;
+    abstract public function log(string $infoToLog): bool;
+    abstract public function setLoggerFile(string $filePath): bool;
 }
