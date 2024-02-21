@@ -19,6 +19,7 @@ class Book extends Model
         'isbn',
         'cover',
         'rating',
+        'description'
     ];
     
     protected $casts = [
@@ -27,6 +28,7 @@ class Book extends Model
         'isbn' => 'string',
         'cover' => 'string',
         'rating' => 'decimal:<2,1>',
+        'description' => 'string'
     ];
     
 }
